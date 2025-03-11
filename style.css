@@ -1,6 +1,6 @@
 @font-face {
     font-family: "PermanentMarker";
-    src: url(/fonts/PermanentMarker-Regular.woff2) format(woff2);
+    src: url(fonts/PermanentMarker-Regular.woff2) format(woff2);
 }
 
 body{
@@ -75,11 +75,11 @@ p{
 #winLine {
     position: absolute;
     width: 0;
-    height: 5px; /* Изменено для видимости линии */
+    height: 5px; 
     border-radius: 20px;
-    background-color: red; /* Изменено для видимости линии */
+    background-color: red; 
     display: none;
-    transform-origin: left center; /* Изменено для корректного вращения */
+    transform-origin: left center; 
 }
 
 @media (max-width: 450px) {

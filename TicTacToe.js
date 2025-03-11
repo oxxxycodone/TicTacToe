@@ -145,7 +145,7 @@ function updateScore(winner) {
 }
 
 function botMove() {
-    if (!running) return; // Проверяем, чтобы бот не ходил после окончания игры
+    if (!running) return; 
 
     let bestScore = -Infinity;
     let move = null;
