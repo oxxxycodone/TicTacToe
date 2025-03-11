@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicTacToe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="start_screen" id="startScreen">
+        <h1>Select the game mode:</h1>
+        <button id="twoPlayerButton">Two players</button>
+        <button id="botButton">Playing against the computer</button>
+    </div>
+    
+    <div id="gameContainer" style="display: none;">
+        <h1>Tic Tac Toe</h1>
+        <div id="scoreBoard">
+            <p>Player X: <span id="scoreX">0</span></p>
+            <p>Player O: <span id="scoreO">0</span></p>
+            <p>draw: <span id="scoreDraw">0</span></p>
+        </div>
+        <div id="cellContainer">
+            <div cellIndex="0" class="cell"></div>
+            <div cellIndex="1" class="cell"></div>
+            <div cellIndex="2" class="cell"></div>
+            <div cellIndex="3" class="cell"></div>
+            <div cellIndex="4" class="cell"></div>
+            <div cellIndex="5" class="cell"></div>
+            <div cellIndex="6" class="cell"></div>
+            <div cellIndex="7" class="cell"></div>
+            <div cellIndex="8" class="cell"></div>
+            <div id="winLine"></div>
+        </div>
+        <h2 id="statusText"></h2>
+        <button class="restart_button" id="restartButton">Restart</button>
+    </div>
+    <script src="TicTacToe.js"></script>
+</body>
+</html>
